@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
   },
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({
@@ -40,7 +40,11 @@ export default function RootLayout({
           <main className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
+z
       </body>
     </html>
   )
 }
+
+
+ 
